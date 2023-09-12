@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;700&family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+
+/* RESET */
+* {
+    box-sizing: border-box;
+    color: #ccc;
+}
+
+html {
+    font-family: 'Josefin Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #05292E;
+}
+
+h1,
+h2,
+h3,
+ul,
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.app {
+    display: grid;
+}
+
+input {
+    outline: none;
+    font-family: inherit;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.header {
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    background-image: url('https://www.shutterstock.com/shutterstock/videos/1053560099/thumb/1.jpg?ip=x480');
+    position: absolute;
+}
+
+.main-title {
+    font-family: 'Bigelow Rules', cursive;
+    font-size: 80px;
+    color: #084851;
+    text-align: center;
+    margin-top: 7.1rem;
+}
+
+.residents-container {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    /* grid-template-columns: repeat(auto-fill, minmax(15rem, 15fr)); */
+    row-gap: 1.5em;
+    column-gap: 0.8em;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.locations-container {
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20.9em;
+}
+
+.serach-input {
+    height: 4em;
+    color: black;
+}
+
+.button {
+    background-color: rgb(33, 134, 67);
+    color: white;
+    border-style: none;
+    height: 1.41em;
+}
+
+.button:hover {
+    background-color: white;
+    color: rgb(33, 134, 67);
+}
+
